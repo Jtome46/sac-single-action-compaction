@@ -1,0 +1,37 @@
+14 cells, 14 to run -> results/iter4/runs_iter4.jsonl
+[FAIL] qwen3.7-flash sac doc_read v4 r0 score=0.0 peak=1966 req=60 comp=30 expected 2171; answer had []
+[ok ] qwen3.7-flash sac multimodal v4 r0 score=1.0 peak=1629 req=3 comp=1 correct total 526
+[FAIL] qwen3.7-flash sac doc_qa_multi v4 r0 score=0.0 peak=2358 req=64 comp=32 no JSON answer object found
+[ok ] qwen3.7-flash sac code_edit v4 r0 score=1.0 peak=1937 req=64 comp=32 all 4 regression tests pass
+[FAIL] qwen3.7-flash sac swe_multifile v4 r0 score=0.0 peak=2692 req=112 comp=56     self.assertEqual(warehouse.available("A"), 6)
+AssertionError: 2 != 6
+
+====================================
+[ok ] deepseek-v4.1-flash sac code_edit v4 r0 score=1.0 peak=2643 req=45 comp=22 all 4 regression tests pass
+[ok ] deepseek-v4.1-flash sac doc_read v4 r0 score=1.0 peak=2299 req=9 comp=4 correct total 2171
+[ok ] deepseek-v4.1-flash sac doc_qa_multi v4 r0 score=1.0 peak=2402 req=17 comp=8 per-question: [True, True, True, True, True, True]
+[ok ] deepseek-v4.1-flash sac multimodal v4 r0 score=1.0 peak=1693 req=3 comp=1 correct total 526
+[ok ] deepseek-v4.1-flash sac swe_multifile v4 r0 score=1.0 peak=2958 req=51 comp=25 all 8 regression tests pass
+[ok ] deepseek-v4.1-flash sac state_retention v4 r0 score=1.0 peak=2074 req=9 comp=4 total 43357 and first code 4017 both correct
+[ok ] deepseek-v4.1-flash sac long_output v4 r0 score=1.0 peak=3145 req=57 comp=28 words=13827 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+[ok ] qwen3.7-flash sac state_retention v4 r0 score=1.0 peak=2146 req=61 comp=30 total 43357 and first code 4017 both correct
+[FAIL] qwen3.7-flash sac long_output v4 r0 score=0.75 peak=2844 req=88 comp=44 words=4718 headings=8/8 json=False 
+done; 0 crashed cell(s); results at results/iter4/runs_iter4.jsonl
+8 cells, 8 to run -> results/iter1/runs_iter1b.jsonl
+[ok ] qwen3.7-flash sac doc_read v1 r0 score=1.0 peak=1787 req=17 comp=8 correct total 2171
+[ok ] deepseek-v4.1-flash sac code_edit v1 r0 score=1.0 peak=2483 req=64 comp=32 all 4 regression tests pass
+[FAIL] qwen3.7-flash sac code_edit v1 r0 score=0.25 peak=1884 req=64 comp=32 PASS test_cents
+FAIL test_invoice_total: invoice_total -> (30.0, 6.0, 36.0)
+FAIL test_rounding: round_money(10
+[ok ] deepseek-v4.1-flash sac doc_read v1 r0 score=1.0 peak=2369 req=15 comp=7 correct total 2171
+[FAIL] qwen3.7-flash sac swe_multifile v1 r0 score=0.0 peak=2066 req=112 comp=56     self.assertEqual(warehouse.available("A"), 6)
+AssertionError: 2 != 6
+
+====================================
+[ok ] qwen3.7-flash sac long_output v1 r0 score=1.0 peak=1851 req=88 comp=44 words=7554 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+[FAIL] deepseek-v4.1-flash sac swe_multifile v1 r0 score=0.0 peak=3227 req=112 comp=56 lf.assertEqual(warehouse.available("A"), 6)
+AssertionError: 2 != 6
+
+==========================================
+[ok ] deepseek-v4.1-flash sac long_output v1 r0 score=1.0 peak=3352 req=88 comp=44 words=11559 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+done; 0 crashed cell(s); results at results/iter1/runs_iter1b.jsonl

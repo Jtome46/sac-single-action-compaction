@@ -1,0 +1,4 @@
+2 cells, 2 to run -> results/iter1/runs_iter1b.jsonl
+[ok ] deepseek-v4.1-flash sac doc_qa_multi v1 r0 score=1.0 peak=2141 req=5 comp=2 per-question: [True, True, True, True, True, True]
+[ok ] qwen3.7-flash sac doc_qa_multi v1 r0 score=1.0 peak=1944 req=25 comp=12 per-question: [True, True, True, True, True, True]
+done; 0 crashed cell(s); results at results/iter1/runs_iter1b.jsonl

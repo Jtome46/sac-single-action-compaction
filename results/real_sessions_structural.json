@@ -1,0 +1,110 @@
+[
+ {
+  "regime": "fha",
+  "steps": 456,
+  "peak": 813861,
+  "total": 195299729,
+  "compactions": 0,
+  "over_budget": 436,
+  "mean": 428288,
+  "session": "session-282184ae-d867-40c2-a14e-946acd6c5aa5",
+  "cwd": "/Users/jtome/Downloads/\u8d22\u52a1\u4eba\u5de5\u667a\u80fd\u57f9\u8bad",
+  "scale": 1.875
+ },
+ {
+  "regime": "eocc",
+  "steps": 456,
+  "peak": 176907,
+  "total": 39537736,
+  "compactions": 4,
+  "over_budget": 93,
+  "mean": 86705,
+  "session": "session-282184ae-d867-40c2-a14e-946acd6c5aa5",
+  "cwd": "/Users/jtome/Downloads/\u8d22\u52a1\u4eba\u5de5\u667a\u80fd\u57f9\u8bad",
+  "scale": 1.875
+ },
+ {
+  "regime": "sac",
+  "steps": 456,
+  "peak": 37900,
+  "total": 2883206,
+  "compactions": 0,
+  "over_budget": 0,
+  "mean": 6322,
+  "session": "session-282184ae-d867-40c2-a14e-946acd6c5aa5",
+  "cwd": "/Users/jtome/Downloads/\u8d22\u52a1\u4eba\u5de5\u667a\u80fd\u57f9\u8bad",
+  "scale": 1.875
+ },
+ {
+  "regime": "fha",
+  "steps": 185,
+  "peak": 279117,
+  "total": 30060787,
+  "compactions": 0,
+  "over_budget": 115,
+  "mean": 162490,
+  "session": "session-5d603e32-dbf5-4dab-9bea-2617166c2d73",
+  "cwd": "/Users/jtome/Documents/deepseek-harness/default-workspace",
+  "scale": 1.201
+ },
+ {
+  "regime": "eocc",
+  "steps": 185,
+  "peak": 114664,
+  "total": 8913648,
+  "compactions": 2,
+  "over_budget": 0,
+  "mean": 48181,
+  "session": "session-5d603e32-dbf5-4dab-9bea-2617166c2d73",
+  "cwd": "/Users/jtome/Documents/deepseek-harness/default-workspace",
+  "scale": 1.201
+ },
+ {
+  "regime": "sac",
+  "steps": 185,
+  "peak": 20149,
+  "total": 825910,
+  "compactions": 0,
+  "over_budget": 0,
+  "mean": 4464,
+  "session": "session-5d603e32-dbf5-4dab-9bea-2617166c2d73",
+  "cwd": "/Users/jtome/Documents/deepseek-harness/default-workspace",
+  "scale": 1.201
+ },
+ {
+  "regime": "fha",
+  "steps": 231,
+  "peak": 401652,
+  "total": 50882455,
+  "compactions": 0,
+  "over_budget": 180,
+  "mean": 220270,
+  "session": "session-b3ee816f-7926-4ff6-89d8-12dcc64821f4",
+  "cwd": "/Users/jtome/Downloads/DeepSeek_Harness_Draft",
+  "scale": 1.404
+ },
+ {
+  "regime": "eocc",
+  "steps": 231,
+  "peak": 134318,
+  "total": 16102809,
+  "compactions": 3,
+  "over_budget": 7,
+  "mean": 69709,
+  "session": "session-b3ee816f-7926-4ff6-89d8-12dcc64821f4",
+  "cwd": "/Users/jtome/Downloads/DeepSeek_Harness_Draft",
+  "scale": 1.404
+ },
+ {
+  "regime": "sac",
+  "steps": 231,
+  "peak": 24223,
+  "total": 1102822,
+  "compactions": 0,
+  "over_budget": 0,
+  "mean": 4774,
+  "session": "session-b3ee816f-7926-4ff6-89d8-12dcc64821f4",
+  "cwd": "/Users/jtome/Downloads/DeepSeek_Harness_Draft",
+  "scale": 1.404
+ }
+]

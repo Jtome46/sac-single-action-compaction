@@ -1,0 +1,18 @@
+{
+  "name": "@local/dsh-sac-preset",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent preset `sac`: the standard composition plus the Single-Action Compaction policy, so SAC runs only in sessions that select this preset.",
+  "exports": {
+    "./sac": "./sac/index.js"
+  },
+  "dependencies": {
+    "@local/dsh-sac-compact": "link:../dsh-sac-compact"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

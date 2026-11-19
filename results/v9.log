@@ -1,0 +1,16 @@
+16 cells, 16 to run -> results/iter5/runs_v9.jsonl
+[ok ] qwen3.7-flash sac code_edit v9 r0 score=1.0 peak=2869 req=10 comp=3 all 4 regression tests pass
+[ok ] qwen3.7-flash sac doc_read v9 r0 score=1.0 peak=11602 req=10 comp=4 correct total 2171
+[ok ] qwen3.7-flash sac multimodal v9 r0 score=1.0 peak=2533 req=5 comp=2 correct total 526
+[FAIL] qwen3.7-flash sac long_output v9 r0 score=0.2 peak=3298 req=4 comp=1 words=885 headings=4/8 json=False 
+[ok ] qwen3.7-flash sac doc_qa_multi v9 r0 score=1.0 peak=4922 req=21 comp=10 per-question: [True, True, True, True, True, True]
+[ok ] qwen3.7-flash sac state_retention v9 r0 score=1.0 peak=2027 req=16 comp=7 total 43357 and first code 4017 both correct
+[ok ] deepseek-v4.1-flash sac swe_multifile v9 r0 score=1.0 peak=4474 req=10 comp=4 all 8 regression tests pass
+[ok ] deepseek-v4.1-flash sac doc_read v9 r0 score=1.0 peak=2505 req=12 comp=5 correct total 2171
+[ok ] deepseek-v4.1-flash sac doc_qa_multi v9 r0 score=1.0 peak=4171 req=6 comp=2 per-question: [True, True, True, True, True, True]
+[ok ] deepseek-v4.1-flash sac code_edit v9 r0 score=1.0 peak=3026 req=39 comp=18 all 4 regression tests pass
+[ok ] deepseek-v4.1-flash sac multimodal v9 r0 score=1.0 peak=2870 req=13 comp=5 correct total 526
+[ok ] qwen3.7-flash sac million_repo v9 r0 score=1.0 peak=3260 req=39 comp=19 settlement tests pass
+[ok ] deepseek-v4.1-flash sac state_retention v9 r0 score=1.0 peak=2604 req=18 comp=7 total 43357 and first code 4017 both correct
+[ok ] deepseek-v4.1-flash sac million_repo v9 r0 score=1.0 peak=3728 req=26 comp=12 settlement tests pass
+[ok ] deepseek-v4.1-flash sac long_output v9 r0 score=1.0 peak=5758 req=36 comp=17 words=10966 headings=8/8 json=True json keys=['budgets', 'components', 'version']

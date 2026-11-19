@@ -1,0 +1,53 @@
+14 cells, 14 to run -> results/iter2/runs_iter2b.jsonl
+[ok ] qwen3.7-flash sac doc_qa_multi v2 r0 score=1.0 peak=1734 req=31 comp=15 per-question: [True, True, True, True, True, True]
+[ok ] qwen3.7-flash sac multimodal v2 r0 score=1.0 peak=1649 req=11 comp=5 correct total 526
+[FAIL] qwen3.7-flash sac code_edit v2 r0 score=0.25 peak=1633 req=64 comp=32 PASS test_cents
+FAIL test_invoice_total: invoice_total -> (30.0, 6.0, 36.0)
+FAIL test_rounding: round_money(10
+[FAIL] qwen3.7-flash sac doc_read v2 r0 score=0.0 peak=1689 req=60 comp=30 expected 2171; answer had []
+[FAIL] qwen3.7-flash sac state_retention v2 r0 score=0.0 peak=1518 req=64 comp=32 expected total 43357 and first code 4017
+[ok ] deepseek-v4.1-flash sac code_edit v2 r0 score=1.0 peak=2245 req=47 comp=23 all 4 regression tests pass
+[ok ] deepseek-v4.1-flash sac doc_read v2 r0 score=1.0 peak=1957 req=27 comp=13 correct total 2171
+[FAIL] qwen3.7-flash sac swe_multifile v2 r0 score=0.0 peak=1817 req=112 comp=56     self.assertEqual(warehouse.available("A"), 6)
+AssertionError: 2 != 6
+
+====================================
+[ok ] deepseek-v4.1-flash sac multimodal v2 r0 score=1.0 peak=1650 req=11 comp=5 correct total 526
+[ok ] deepseek-v4.1-flash sac doc_qa_multi v2 r0 score=1.0 peak=2107 req=23 comp=11 per-question: [True, True, True, True, True, True]
+[ok ] deepseek-v4.1-flash sac state_retention v2 r0 score=1.0 peak=1647 req=5 comp=2 total 43357 and first code 4017 both correct
+[FAIL] qwen3.7-flash sac long_output v2 r0 score=0.7 peak=1694 req=88 comp=44 words=8201 headings=7/8 json=False 
+[ok ] deepseek-v4.1-flash sac swe_multifile v2 r0 score=1.0 peak=2667 req=112 comp=56 all 8 regression tests pass
+[ok ] deepseek-v4.1-flash sac long_output v2 r0 score=1.0 peak=3460 req=79 comp=39 words=11285 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+done; 0 crashed cell(s); results at results/iter2/runs_iter2b.jsonl
+14 cells, 14 to run -> results/iter3/runs_iter3.jsonl
+[ok ] qwen3.7-flash sac doc_read v3 r0 score=1.0 peak=1561 req=11 comp=5 correct total 2171
+[ok ] qwen3.7-flash sac doc_qa_multi v3 r0 score=1.0 peak=1688 req=19 comp=9 per-question: [True, True, True, True, True, True]
+[ok ] qwen3.7-flash sac multimodal v3 r0 score=1.0 peak=1620 req=13 comp=6 correct total 526
+[ok ] qwen3.7-flash sac state_retention v3 r0 score=1.0 peak=1467 req=17 comp=8 total 43357 and first code 4017 both correct
+[FAIL] qwen3.7-flash sac code_edit v3 r0 score=0.25 peak=1781 req=64 comp=32 PASS test_cents
+FAIL test_invoice_total: invoice_total -> (30.0, 6.0, 36.0)
+FAIL test_rounding: round_money(10
+[ok ] deepseek-v4.1-flash sac code_edit v3 r0 score=1.0 peak=2424 req=61 comp=30 all 4 regression tests pass
+[ok ] deepseek-v4.1-flash sac doc_read v3 r0 score=1.0 peak=1926 req=25 comp=12 correct total 2171
+[ok ] deepseek-v4.1-flash sac doc_qa_multi v3 r0 score=1.0 peak=2067 req=15 comp=7 per-question: [True, True, True, True, True, True]
+[ok ] deepseek-v4.1-flash sac multimodal v3 r0 score=1.0 peak=1491 req=3 comp=1 correct total 526
+[FAIL] qwen3.7-flash sac long_output v3 r0 score=0.45 peak=1687 req=88 comp=44 words=3067 headings=5/8 json=False 
+[ok ] deepseek-v4.1-flash sac state_retention v3 r0 score=1.0 peak=1836 req=7 comp=3 total 43357 and first code 4017 both correct
+[FAIL] qwen3.7-flash sac swe_multifile v3 r0 score=0.375 peak=1913 req=112 comp=56 ering element 0:
+'d'
+'b'
+
+- ['d', 'a']
+?   ^    ^
+
++ ['b', 'c']
+?   ^    ^
+
+
+=================================
+[ok ] deepseek-v4.1-flash sac swe_multifile v3 r0 score=1.0 peak=2708 req=112 comp=56 all 8 regression tests pass
+[FAIL] deepseek-v4.1-flash sac long_output v3 r0 score=0.75 peak=3268 req=88 comp=44 words=16929 headings=8/8 json=False 
+done; 0 crashed cell(s); results at results/iter3/runs_iter3.jsonl
+14 cells, 14 to run -> results/iter4/runs_iter4.jsonl
+[FAIL] qwen3.7-flash sac doc_read v4 r0 score=0.0 peak=2209 req=60 comp=30 expected 2171; answer had []
+[ok ] qwen3.7-flash sac multimodal v4 r0 score=1.0 peak=1620 req=3 comp=1 correct total 526

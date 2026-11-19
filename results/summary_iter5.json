@@ -1,0 +1,81 @@
+{
+  "limits": {
+    "input": 130172,
+    "output": 8192
+  },
+  "cells": 68,
+  "by_version": {
+    "v5|qwen3.7-flash": {
+      "runs": 8,
+      "pass": 5,
+      "score": 0.656,
+      "capped": 3,
+      "peak_avg": 2057,
+      "input_tokens": 1030118,
+      "requests": 485
+    },
+    "v5|deepseek-v4.1-flash": {
+      "runs": 8,
+      "pass": 7,
+      "score": 0.875,
+      "capped": 1,
+      "peak_avg": 2488,
+      "input_tokens": 1032313,
+      "requests": 415
+    },
+    "v6|qwen3.7-flash": {
+      "runs": 8,
+      "pass": 8,
+      "score": 1.0,
+      "capped": 0,
+      "peak_avg": 3708,
+      "input_tokens": 389319,
+      "requests": 156
+    },
+    "v6|deepseek-v4.1-flash": {
+      "runs": 8,
+      "pass": 8,
+      "score": 1.0,
+      "capped": 0,
+      "peak_avg": 3641,
+      "input_tokens": 540440,
+      "requests": 162
+    },
+    "v7|qwen3.7-flash": {
+      "runs": 8,
+      "pass": 8,
+      "score": 1.0,
+      "capped": 0,
+      "peak_avg": 3608,
+      "input_tokens": 464390,
+      "requests": 180
+    },
+    "v7|deepseek-v4.1-flash": {
+      "runs": 8,
+      "pass": 7,
+      "score": 0.969,
+      "capped": 0,
+      "peak_avg": 3745,
+      "input_tokens": 449521,
+      "requests": 148
+    },
+    "v8|qwen3.7-flash": {
+      "runs": 8,
+      "pass": 7,
+      "score": 0.875,
+      "capped": 1,
+      "peak_avg": 4484,
+      "input_tokens": 702734,
+      "requests": 252
+    },
+    "v8|deepseek-v4.1-flash": {
+      "runs": 8,
+      "pass": 8,
+      "score": 1.0,
+      "capped": 0,
+      "peak_avg": 4375,
+      "input_tokens": 562524,
+      "requests": 159
+    }
+  }
+}

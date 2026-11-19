@@ -1,0 +1,83 @@
+4 cells, 4 to run -> results/iter5/runs_baselines.jsonl
+[ok ] qwen3.7-flash fha million_repo - r0 score=1.0 peak=2965 req=10 comp=0 settlement tests pass
+[ok ] qwen3.7-flash eocc million_repo - r0 score=1.0 peak=2881 req=10 comp=0 settlement tests pass
+[ok ] deepseek-v4.1-flash fha million_repo - r0 score=1.0 peak=4237 req=8 comp=0 settlement tests pass
+[ok ] deepseek-v4.1-flash eocc million_repo - r0 score=1.0 peak=4389 req=11 comp=0 settlement tests pass
+done; 0 crashed cell(s); results at results/iter5/runs_baselines.jsonl
+64 cells, 64 to run -> results/iter5/runs_iter5678.jsonl
+[ok ] qwen3.7-flash sac code_edit v7 r0 score=1.0 peak=2628 req=13 comp=6 all 4 regression tests pass
+[ok ] qwen3.7-flash sac code_edit v6 r0 score=1.0 peak=2941 req=18 comp=8 all 4 regression tests pass
+[ok ] qwen3.7-flash sac swe_multifile v6 r0 score=1.0 peak=3977 req=37 comp=18 all 8 regression tests pass
+[ok ] qwen3.7-flash sac code_edit v8 r0 score=1.0 peak=4539 req=63 comp=31 all 4 regression tests pass
+[FAIL] qwen3.7-flash sac code_edit v5 r0 score=0.25 peak=2003 req=64 comp=32 PASS test_cents
+FAIL test_invoice_total: invoice_total -> (30.0, 6.0, 36.0)
+FAIL test_rounding: round_money(10
+[ok ] qwen3.7-flash sac swe_multifile v7 r0 score=1.0 peak=4321 req=57 comp=28 all 8 regression tests pass
+[ok ] qwen3.7-flash sac doc_read v6 r0 score=1.0 peak=8027 req=8 comp=3 correct total 2171
+[ok ] qwen3.7-flash sac doc_read v7 r0 score=1.0 peak=4603 req=10 comp=4 correct total 2171
+[ok ] qwen3.7-flash sac doc_read v8 r0 score=1.0 peak=8157 req=15 comp=7 correct total 2171
+[FAIL] qwen3.7-flash sac doc_read v5 r0 score=0.0 peak=2046 req=60 comp=30 expected 2171; answer had []
+[FAIL] qwen3.7-flash sac swe_multifile v5 r0 score=0.0 peak=2366 req=112 comp=56     self.assertEqual(warehouse.available("A"), 6)
+AssertionError: 2 != 6
+
+====================================
+[ok ] qwen3.7-flash sac doc_qa_multi v6 r0 score=1.0 peak=2381 req=11 comp=5 per-question: [True, True, True, True, True, True]
+[ok ] qwen3.7-flash sac doc_qa_multi v7 r0 score=1.0 peak=2605 req=7 comp=3 per-question: [True, True, True, True, True, True]
+[ok ] qwen3.7-flash sac doc_qa_multi v5 r0 score=1.0 peak=2108 req=23 comp=11 per-question: [True, True, True, True, True, True]
+[ok ] qwen3.7-flash sac multimodal v6 r0 score=1.0 peak=2292 req=6 comp=2 correct total 526
+[ok ] qwen3.7-flash sac multimodal v7 r0 score=1.0 peak=2898 req=3 comp=1 correct total 526
+[FAIL] qwen3.7-flash sac swe_multifile v8 r0 score=0.0 peak=4682 req=111 comp=55     self.assertEqual(warehouse.available("A"), 6)
+AssertionError: 2 != 6
+
+====================================
+[ok ] qwen3.7-flash sac multimodal v8 r0 score=1.0 peak=2847 req=5 comp=2 correct total 526
+[ok ] qwen3.7-flash sac multimodal v5 r0 score=1.0 peak=1911 req=29 comp=14 correct total 526
+[ok ] qwen3.7-flash sac doc_qa_multi v8 r0 score=1.0 peak=2641 req=43 comp=21 per-question: [True, True, True, True, True, True]
+[FAIL] qwen3.7-flash sac long_output v8 r0 score=0.0 peak=1644 req=2 comp=0 docs/design.md was not written
+[ok ] qwen3.7-flash sac state_retention v5 r0 score=1.0 peak=1933 req=29 comp=14 total 43357 and first code 4017 both correct
+[ok ] qwen3.7-flash sac state_retention v6 r0 score=1.0 peak=2610 req=19 comp=9 total 43357 and first code 4017 both correct
+[ok ] qwen3.7-flash sac long_output v6 r0 score=1.0 peak=4418 req=30 comp=14 words=11775 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+[ok ] qwen3.7-flash sac long_output v7 r0 score=1.0 peak=6197 req=23 comp=10 words=11960 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+[ok ] qwen3.7-flash sac state_retention v8 r0 score=1.0 peak=1976 req=19 comp=9 total 43357 and first code 4017 both correct
+[ok ] qwen3.7-flash sac state_retention v7 r0 score=1.0 peak=2395 req=38 comp=18 total 43357 and first code 4017 both correct
+[ok ] qwen3.7-flash sac million_repo v6 r0 score=1.0 peak=3022 req=27 comp=13 settlement tests pass
+[ok ] qwen3.7-flash sac million_repo v7 r0 score=1.0 peak=3214 req=29 comp=14 settlement tests pass
+[ok ] qwen3.7-flash sac million_repo v8 r0 score=1.0 peak=3108 req=31 comp=15 settlement tests pass
+[ok ] deepseek-v4.1-flash sac code_edit v6 r0 score=1.0 peak=3157 req=15 comp=6 all 4 regression tests pass
+[ok ] qwen3.7-flash sac million_repo v5 r0 score=1.0 peak=2090 req=80 comp=40 settlement tests pass
+[ok ] deepseek-v4.1-flash sac code_edit v8 r0 score=1.0 peak=3437 req=24 comp=11 all 4 regression tests pass
+[ok ] deepseek-v4.1-flash sac code_edit v7 r0 score=1.0 peak=3166 req=34 comp=16 all 4 regression tests pass
+[ok ] deepseek-v4.1-flash sac code_edit v5 r0 score=1.0 peak=2639 req=64 comp=32 all 4 regression tests pass
+[ok ] qwen3.7-flash sac long_output v5 r0 score=1.0 peak=2001 req=88 comp=44 words=9240 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+[ok ] deepseek-v4.1-flash sac swe_multifile v7 r0 score=1.0 peak=4282 req=14 comp=6 all 8 regression tests pass
+[ok ] deepseek-v4.1-flash sac doc_read v5 r0 score=1.0 peak=2205 req=11 comp=5 correct total 2171
+[ok ] deepseek-v4.1-flash sac swe_multifile v6 r0 score=1.0 peak=4401 req=47 comp=22 all 8 regression tests pass
+[ok ] deepseek-v4.1-flash sac doc_read v6 r0 score=1.0 peak=4023 req=8 comp=3 correct total 2171
+[FAIL] deepseek-v4.1-flash sac doc_read v8 r0 score=0.0 peak=1514 req=1 comp=0 expected 2171; answer had []
+[ok ] deepseek-v4.1-flash sac doc_read v7 r0 score=1.0 peak=2855 req=12 comp=5 correct total 2171
+[ok ] deepseek-v4.1-flash sac swe_multifile v8 r0 score=1.0 peak=5011 req=38 comp=18 all 8 regression tests pass
+[ok ] deepseek-v4.1-flash sac doc_qa_multi v6 r0 score=1.0 peak=3436 req=10 comp=4 per-question: [True, True, True, True, True, True]
+[ok ] deepseek-v4.1-flash sac doc_qa_multi v7 r0 score=1.0 peak=3577 req=10 comp=4 per-question: [True, True, True, True, True, True]
+[ok ] deepseek-v4.1-flash sac multimodal v5 r0 score=1.0 peak=1856 req=7 comp=3 correct total 526
+[ok ] deepseek-v4.1-flash sac doc_qa_multi v8 r0 score=1.0 peak=4553 req=18 comp=8 per-question: [True, True, True, True, True, True]
+[ok ] deepseek-v4.1-flash sac multimodal v6 r0 score=1.0 peak=2802 req=9 comp=3 correct total 526
+[ok ] deepseek-v4.1-flash sac multimodal v8 r0 score=1.0 peak=2294 req=3 comp=0 correct total 526
+[ok ] deepseek-v4.1-flash sac multimodal v7 r0 score=1.0 peak=2593 req=8 comp=3 correct total 526
+[ok ] deepseek-v4.1-flash sac doc_qa_multi v5 r0 score=1.0 peak=2522 req=51 comp=25 per-question: [True, True, True, True, True, True]
+[FAIL] deepseek-v4.1-flash sac swe_multifile v5 r0 score=0.0 peak=3325 req=112 comp=56 lf.assertEqual(warehouse.available("A"), 6)
+AssertionError: 2 != 6
+
+==========================================
+[ok ] deepseek-v4.1-flash sac long_output v8 r0 score=1.0 peak=7859 req=24 comp=11 words=10384 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+[ok ] deepseek-v4.1-flash sac state_retention v5 r0 score=1.0 peak=2181 req=15 comp=7 total 43357 and first code 4017 both correct
+[ok ] deepseek-v4.1-flash sac state_retention v6 r0 score=1.0 peak=2190 req=6 comp=2 total 43357 and first code 4017 both correct
+[FAIL] deepseek-v4.1-flash sac long_output v7 r0 score=0.75 peak=7933 req=33 comp=15 words=14153 headings=8/8 json=False json keys=['error', 'hint', 'limit_pps', 'observed_pps', 'retry_after_ms',
+[ok ] deepseek-v4.1-flash sac long_output v6 r0 score=1.0 peak=6290 req=51 comp=24 words=12298 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+[ok ] deepseek-v4.1-flash sac long_output v5 r0 score=1.0 peak=2845 req=75 comp=37 words=10528 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+[ok ] deepseek-v4.1-flash sac state_retention v7 r0 score=1.0 peak=2562 req=9 comp=3 total 43357 and first code 4017 both correct
+[ok ] deepseek-v4.1-flash sac state_retention v8 r0 score=1.0 peak=2817 req=19 comp=8 total 43357 and first code 4017 both correct
+[ok ] deepseek-v4.1-flash sac million_repo v6 r0 score=1.0 peak=2829 req=16 comp=7 settlement tests pass
+[ok ] deepseek-v4.1-flash sac million_repo v7 r0 score=1.0 peak=2993 req=28 comp=13 settlement tests pass
+[ok ] deepseek-v4.1-flash sac million_repo v8 r0 score=1.0 peak=2955 req=24 comp=11 settlement tests pass
+[ok ] deepseek-v4.1-flash sac million_repo v5 r0 score=1.0 peak=2330 req=80 comp=40 settlement tests pass
+done; 0 crashed cell(s); results at results/iter5/runs_iter5678.jsonl

@@ -1,0 +1,21 @@
+16 cells, 16 to run -> results/iter5/runs_v8b.jsonl
+[ok ] qwen3.7-flash sac doc_read v8 r0 score=1.0 peak=8093 req=11 comp=5 correct total 2171
+[ok ] qwen3.7-flash sac multimodal v8 r0 score=1.0 peak=2914 req=3 comp=1 correct total 526
+[ok ] qwen3.7-flash sac doc_qa_multi v8 r0 score=1.0 peak=5499 req=27 comp=13 per-question: [True, True, True, True, True, True]
+[ok ] qwen3.7-flash sac code_edit v8 r0 score=1.0 peak=3871 req=31 comp=15 all 4 regression tests pass
+[ok ] qwen3.7-flash sac state_retention v8 r0 score=1.0 peak=1987 req=17 comp=8 total 43357 and first code 4017 both correct
+[ok ] qwen3.7-flash sac million_repo v8 r0 score=1.0 peak=3651 req=19 comp=9 settlement tests pass
+[ok ] deepseek-v4.1-flash sac code_edit v8 r0 score=1.0 peak=3625 req=12 comp=5 all 4 regression tests pass
+[ok ] deepseek-v4.1-flash sac doc_read v8 r0 score=1.0 peak=3037 req=20 comp=9 correct total 2171
+[ok ] deepseek-v4.1-flash sac doc_qa_multi v8 r0 score=1.0 peak=6589 req=12 comp=5 per-question: [True, True, True, True, True, True]
+[ok ] deepseek-v4.1-flash sac swe_multifile v8 r0 score=1.0 peak=4270 req=28 comp=13 all 8 regression tests pass
+[ok ] qwen3.7-flash sac long_output v8 r0 score=1.0 peak=4604 req=36 comp=16 words=7437 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+[ok ] deepseek-v4.1-flash sac multimodal v8 r0 score=1.0 peak=2832 req=17 comp=7 correct total 526
+[ok ] deepseek-v4.1-flash sac state_retention v8 r0 score=1.0 peak=2587 req=6 comp=2 total 43357 and first code 4017 both correct
+[ok ] deepseek-v4.1-flash sac million_repo v8 r0 score=1.0 peak=3226 req=16 comp=7 settlement tests pass
+[FAIL] qwen3.7-flash sac swe_multifile v8 r0 score=1.0 peak=5256 req=108 comp=52 amework/Versions/3.12/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(na
+[ok ] deepseek-v4.1-flash sac long_output v8 r0 score=1.0 peak=8832 req=48 comp=23 words=15772 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+done; 0 crashed cell(s); results at results/iter5/runs_v8b.jsonl
+[real] deepseek-v4.1-flash v6 #1 财务人工智能培训 paths None cmds 0.00 state=1751tok
+[real] deepseek-v4.1-flash v7 #1 财务人工智能培训 paths None cmds 0.00 state=2706tok

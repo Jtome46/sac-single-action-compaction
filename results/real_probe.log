@@ -1,0 +1,12 @@
+[real] deepseek-v4.1-flash v6 #1 财务人工智能培训 paths None cmds 0.17 state=2673tok
+[real] deepseek-v4.1-flash v5 #1 财务人工智能培训 paths None cmds 0.33 state=2599tok
+[real] deepseek-v4.1-flash v8 #1 财务人工智能培训 paths None cmds 0.00 state=2462tok
+[real] deepseek-v4.1-flash v1 #1 财务人工智能培训 paths None cmds 0.00 state=2530tok
+[real] deepseek-v4.1-flash v5 #2 default-workspace paths None cmds 0.24 state=1800tok
+[real] deepseek-v4.1-flash v6 #2 default-workspace paths None cmds 0.24 state=2093tok
+[real] deepseek-v4.1-flash v1 #2 default-workspace paths None cmds 0.24 state=1931tok
+[real] deepseek-v4.1-flash v8 #2 default-workspace paths None cmds 0.65 state=2293tok
+[real] deepseek-v4.1-flash v5 #3 DeepSeek_Harness_Draft paths None cmds 1.00 state=1645tok
+[real] deepseek-v4.1-flash v1 #3 DeepSeek_Harness_Draft paths None cmds 0.33 state=1951tok
+[real] deepseek-v4.1-flash v8 #3 DeepSeek_Harness_Draft paths None cmds 1.00 state=2111tok
+[real] deepseek-v4.1-flash v6 #3 DeepSeek_Harness_Draft paths None cmds 1.00 state=2107tok

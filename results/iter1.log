@@ -1,0 +1,32 @@
+30 cells, 30 to run -> results/iter1/runs_iter1.jsonl
+[ok ] qwen3.7-flash fha multimodal - r0 score=1.0 peak=1719 req=2 comp=0 correct total 526
+[ok ] qwen3.7-flash fha doc_read - r0 score=1.0 peak=2086 req=4 comp=0 correct total 2171
+[ok ] qwen3.7-flash fha code_edit - r0 score=1.0 peak=2823 req=7 comp=0 all 4 regression tests pass
+[ok ] qwen3.7-flash eocc code_edit - r0 score=1.0 peak=2893 req=7 comp=0 all 4 regression tests pass
+[ok ] qwen3.7-flash eocc doc_read - r0 score=1.0 peak=2097 req=4 comp=0 correct total 2171
+[ok ] qwen3.7-flash fha state_retention - r0 score=1.0 peak=1775 req=9 comp=0 total 43357 and first code 4017 both correct
+[ok ] qwen3.7-flash eocc multimodal - r0 score=1.0 peak=1727 req=2 comp=0 correct total 526
+[ok ] qwen3.7-flash eocc state_retention - r0 score=1.0 peak=1948 req=10 comp=0 total 43357 and first code 4017 both correct
+[ok ] qwen3.7-flash sac doc_read v1 r0 score=1.0 peak=1707 req=21 comp=10 correct total 2171
+[ok ] qwen3.7-flash sac multimodal v1 r0 score=1.0 peak=1592 req=3 comp=1 correct total 526
+[ok ] qwen3.7-flash eocc long_output - r0 score=1.0 peak=14445 req=11 comp=0 words=6365 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+[ok ] qwen3.7-flash sac state_retention v1 r0 score=1.0 peak=1620 req=5 comp=2 total 43357 and first code 4017 both correct
+[ok ] deepseek-v4.1-flash fha code_edit - r0 score=1.0 peak=4421 req=9 comp=0 all 4 regression tests pass
+[ok ] deepseek-v4.1-flash fha doc_read - r0 score=1.0 peak=6191 req=8 comp=0 correct total 2171
+[ok ] qwen3.7-flash sac code_edit v1 r0 score=1.0 peak=1728 req=48 comp=24 all 4 regression tests pass
+[ok ] deepseek-v4.1-flash fha multimodal - r0 score=1.0 peak=4694 req=12 comp=0 correct total 526
+[ok ] deepseek-v4.1-flash fha state_retention - r0 score=1.0 peak=1777 req=4 comp=0 total 43357 and first code 4017 both correct
+[ok ] deepseek-v4.1-flash eocc code_edit - r0 score=1.0 peak=3105 req=6 comp=0 all 4 regression tests pass
+[ok ] deepseek-v4.1-flash eocc doc_read - r0 score=1.0 peak=6913 req=9 comp=0 correct total 2171
+[FAIL] deepseek-v4.1-flash eocc multimodal - r0 score=0.0 peak=13218 req=24 comp=0 expected 526
+[ok ] deepseek-v4.1-flash fha long_output - r0 score=1.0 peak=24302 req=23 comp=0 words=11181 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+[ok ] deepseek-v4.1-flash eocc state_retention - r0 score=1.0 peak=2015 req=5 comp=0 total 43357 and first code 4017 both correct
+[ok ] deepseek-v4.1-flash sac code_edit v1 r0 score=1.0 peak=2535 req=17 comp=8 all 4 regression tests pass
+[ok ] deepseek-v4.1-flash eocc long_output - r0 score=1.0 peak=16705 req=16 comp=0 words=8348 headings=8/8 json=True json keys=['budgets', 'components', 'version']
+[ok ] deepseek-v4.1-flash sac doc_read v1 r0 score=1.0 peak=2143 req=7 comp=3 correct total 2171
+[ok ] deepseek-v4.1-flash sac multimodal v1 r0 score=1.0 peak=1873 req=9 comp=4 correct total 526
+[ok ] deepseek-v4.1-flash sac state_retention v1 r0 score=1.0 peak=1547 req=7 comp=3 total 43357 and first code 4017 both correct
+[FAIL] qwen3.7-flash sac long_output v1 r0 score=0.7 peak=2686 req=56 comp=28 words=5339 headings=7/8 json=False 
+[FAIL] deepseek-v4.1-flash sac long_output v1 r0 score=0.7 peak=3314 req=56 comp=28 words=9563 headings=7/8 json=False 
+[FAIL] qwen3.7-flash fha long_output - r0 score=0.15 peak=109509 req=28 comp=0 words=550 headings=3/8 json=False 
+done; 0 crashed cell(s); results at results/iter1/runs_iter1.jsonl

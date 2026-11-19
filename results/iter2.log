@@ -1,0 +1,31 @@
+14 cells, 14 to run -> results/iter2/runs_iter2.jsonl
+[ok ] qwen3.7-flash sac doc_qa_multi v2 r0 score=1.0 peak=1789 req=19 comp=9 per-question: [True, True, True, True, True, True]
+[ok ] qwen3.7-flash sac multimodal v2 r0 score=1.0 peak=1651 req=5 comp=2 correct total 526
+[FAIL] qwen3.7-flash sac code_edit v2 r0 score=0.5 peak=1719 req=48 comp=24 PASS test_cents
+FAIL test_invoice_total: invoice_total -> (35.5, 7.1, 42.6)
+FAIL test_rounding: round_money(10
+[ok ] qwen3.7-flash sac state_retention v2 r0 score=1.0 peak=1529 req=19 comp=9 total 43357 and first code 4017 both correct
+[FAIL] qwen3.7-flash sac swe_multifile v2 r0 score=0.0 peak=2052 req=80 comp=40     self.assertEqual(warehouse.available("A"), 6)
+AssertionError: 2 != 6
+
+====================================
+[FAIL] qwen3.7-flash sac long_output v2 r0 score=0.55 peak=1599 req=56 comp=28 words=3043 headings=7/8 json=False 
+[ok ] deepseek-v4.1-flash sac doc_read v2 r0 score=1.0 peak=1949 req=17 comp=8 correct total 2171
+[ok ] deepseek-v4.1-flash sac doc_qa_multi v2 r0 score=1.0 peak=1918 req=7 comp=3 per-question: [True, True, True, True, True, True]
+[ok ] deepseek-v4.1-flash sac multimodal v2 r0 score=1.0 peak=1488 req=5 comp=2 correct total 526
+[ok ] deepseek-v4.1-flash sac code_edit v2 r0 score=1.0 peak=2340 req=48 comp=24 all 4 regression tests pass
+[ok ] deepseek-v4.1-flash sac state_retention v2 r0 score=1.0 peak=1812 req=19 comp=9 total 43357 and first code 4017 both correct
+[FAIL] qwen3.7-flash sac doc_read v2 r0 score=0.0 peak=1641 req=44 comp=22 expected 2171; answer had []
+[ok ] deepseek-v4.1-flash sac swe_multifile v2 r0 score=1.0 peak=2491 req=80 comp=40 all 8 regression tests pass
+[FAIL] deepseek-v4.1-flash sac long_output v2 r0 score=0.7 peak=2749 req=56 comp=28 words=6701 headings=7/8 json=False 
+done; 0 crashed cell(s); results at results/iter2/runs_iter2.jsonl
+8 cells, 8 to run -> results/iter2/runs_iter2.jsonl
+[ok ] qwen3.7-flash fha doc_qa_multi - r0 score=1.0 peak=2710 req=6 comp=0 per-question: [True, True, True, True, True, True]
+[ok ] qwen3.7-flash eocc doc_qa_multi - r0 score=1.0 peak=5393 req=11 comp=0 per-question: [True, True, True, True, True, True]
+[ok ] qwen3.7-flash fha swe_multifile - r0 score=1.0 peak=7642 req=19 comp=0 all 8 regression tests pass
+[ok ] qwen3.7-flash eocc swe_multifile - r0 score=1.0 peak=7042 req=19 comp=0 all 8 regression tests pass
+[ok ] deepseek-v4.1-flash eocc doc_qa_multi - r0 score=1.0 peak=13182 req=12 comp=0 per-question: [True, True, True, True, True, True]
+[ok ] deepseek-v4.1-flash fha swe_multifile - r0 score=1.0 peak=9483 req=15 comp=0 all 8 regression tests pass
+[ok ] deepseek-v4.1-flash fha doc_qa_multi - r0 score=1.0 peak=19825 req=21 comp=0 per-question: [True, True, True, True, True, True]
+[ok ] deepseek-v4.1-flash eocc swe_multifile - r0 score=1.0 peak=17042 req=18 comp=0 all 8 regression tests pass
+done; 0 crashed cell(s); results at results/iter2/runs_iter2.jsonl
