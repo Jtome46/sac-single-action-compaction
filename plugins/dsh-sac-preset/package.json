@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Agent preset `sac`: the standard composition plus the Single-Action Compaction policy, so SAC runs only in sessions that select this preset.",
   "exports": {
+    ".": "./sac/index.js",
     "./sac": "./sac/index.js",
     "./locale/*.json": "./locale/*.json"
   },
